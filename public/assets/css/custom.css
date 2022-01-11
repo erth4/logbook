@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
+:root {
+    --default-theme: #007bff;
+    --color: #506670;
+}
+
+body {
+    font-family: 'Noto Sans Display', sans-serif;
+    background: rgb(236 244 255);
+    color: var(--color);
+    font-size: .9rem;
+}
+
+.navbar {
+    /*background: var(--default-theme) !important;*/
+    background: #ffffff;
+    /*border-bottom: 3px solid #fff;*/
+}
+
+.navbar-dark .navbar-toggler {
+    color: var(--color);
+    border-color: var(--color);
+}
+
+.navbar-toggler {
+    background: var(--color);
+}
+
+.form-control:focus {
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    color: #6b6b6b !important;
+    background-clip: border-box !important;
+    border: 2px solid var(--default-theme) !important;
+    outline: 0 !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    background: #fff !important
+}
+
+a.navbar-brand {
+    color: var(--color) !important;
+}
+
+.nav-item a.nav-link,
+a.dropdown-item {
+    color: var(--color) !important;
+    font-size: 1rem;
+}
+
+
+table {
+    width: 100% !important;
+}
+
+.table th {
+    text-align: center !important;
+    vertical-align: middle !important;
+    font-size: .9rem;
+    background: #eee;
+}
+
+.table td {
+    font-size: .9rem;
+}
+
+table.dataTable.fixedHeader-floating {
+    position: fixed !important;
+    z-index: 9999 !important;
+    top: 48px !important;
+    left: 36px !important;
+}
+
+.btn-sm {
+    padding: .15rem .5rem;
+}
+
+.btn-sm i{
+    font-size: .8rem;
+    line-height: 0 !important;
+}
